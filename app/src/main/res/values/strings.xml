@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- Screen String-->
+    <string name="mExp">1+2+3+4</string>
+    <string name="mRes">10</string>
+    <string name="line">line</string>
+
+    <!-- Menu String-->
+    <string name="theme">Theme</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+
+    <!-- Number String-->
+    <string name="dot">.</string>
+    <string name="dzero">00</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
+    <!-- Operator String-->
+    <string name="add">+</string>
+    <string name="min">-</string>
+    <string name="mul">x</string>
+    <string name="div">/</string>
+    <string name="mod">%</string>
+
+    <!-- Special String-->
+    <string name="clear">AC</string>
+    <string name="del">DEL</string>
+    <string name="equal">=</string>
+
+
+
+</resources>

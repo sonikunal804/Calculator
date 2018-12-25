@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <!-- Special button -->
+    
+    <style name="SpecialButton">
+
+        <item name="android:background">@color/colorBtnSpecialBG</item>
+        <item name="android:textColor">@color/colorBtnSpecialText</item>
+        <item name="android:textSize">40sp</item>
+        
+    </style>
+
+    <!-- Number button -->
+
+    <style name="NumberButton">
+
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@color/colorBtnNumberBG</item>
+        <item name="android:textColor">@color/colorBtnNumberText</item>
+        <item name="android:textSize">40sp</item>
+
+    </style>
+
+    <!-- Operator button -->
+
+    <style name="OperatorButton">
+
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@color/colorBtnOperatorBG</item>
+        <item name="android:textColor">@color/colorBtnOperatorText</item>
+        <item name="android:textSize">40sp</item>
+
+    </style>
+
+</resources>

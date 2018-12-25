@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:background="@color/colorDisplay">
+
+        <TextView
+            android:id="@+id/mExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="textStart"
+            android:paddingTop="10dp"
+            android:text="@string/mExp"
+            android:textSize="38sp"
+            android:maxLength="75"
+            />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:src="@drawable/line"
+            android:contentDescription="@string/line" />
+
+        <TextView
+            android:id="@+id/mResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mRes"
+            android:paddingTop="10dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorBlack"
+            android:textSize="36sp"
+            android:layout_below="@+id/line"
+            android:maxLength="20"
+
+            />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

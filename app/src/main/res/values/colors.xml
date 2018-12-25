@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#109010</color>
+    <color name="colorPrimaryDark">#106510</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorControlHighLigh">#109010</color>
+
+    <!-- Screen Colors -->
+    <color name="colorDisplay">#e2e2e2</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- Number Buttons -->
+    <color name="colorBtnNumberBG">#e2e2e2</color>
+    <color name="colorBtnNumberText">#606060</color>
+
+    <!-- Operator Buttons -->
+    <color name="colorBtnOperatorBG">#606060</color>
+    <color name="colorBtnOperatorText">#e2e2e2</color>
+
+
+    <!-- Special Buttons -->
+    <color name="colorBtnSpecialBG">#bf0000</color>
+    <color name="colorBtnSpecialText">#e2e2e2</color>
+
+</resources>

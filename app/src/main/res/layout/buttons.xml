@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="5"
+        android:columnCount="4">
+
+
+        <!--Row 1 -->
+        <Button
+            android:id="@+id/btnAC"
+            style="@style/SpecialButton"
+            android:layout_margin="2dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/btnMod"
+            android:text="@string/mod"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/OperatorButton"
+            />
+
+        <Button
+            android:id="@+id/btnMul"
+            android:text="@string/mul"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/OperatorButton"
+            />
+
+        <Button
+            android:id="@+id/btnDel"
+            style="@style/SpecialButton"
+            android:layout_margin="2dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/del" />
+
+        <!--Row 2 -->
+        <Button
+            android:id="@+id/btn7"
+            style="@style/NumberButton"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:text="@string/eight"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:text="@string/nine"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:text="@string/div"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/OperatorButton"
+            />
+
+        <!--Row 3 -->
+        <Button
+            android:id="@+id/btn4"
+            style="@style/NumberButton"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:text="@string/five"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:text="@string/six"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:text="@string/min"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/OperatorButton"
+            />
+
+
+
+        <!--Row 4 -->
+        <Button
+            android:id="@+id/btn1"
+            style="@style/NumberButton"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/one" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="@string/two"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="@string/three"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:text="@string/add"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/OperatorButton"/>
+
+        <!--Row 5 -->
+        <Button
+            android:id="@+id/btnDot"
+            style="@style/NumberButton"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/dot" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:text="@string/zero"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btn00"
+            android:text="@string/dzero"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/NumberButton"
+            />
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:text="@string/equal"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/SpecialButton"
+            />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
